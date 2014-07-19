@@ -5,7 +5,7 @@ VC:\u005cUsers\u005cscamper\u005cDocuments\u005cGitHub\u005cTwineIF\u005clocknig
 p2
 sS'saveDestination'
 p3
-VC:\u005cUsers\u005cscamper\u005cDocuments\u005cGitHub\u005cTwineIF\u005clocknightmares.tws
+S'C:\\Users\\scamper\\Documents\\GitHub\\TwineIF\\locknightmares.tws'
 p4
 sS'metadata'
 p5
@@ -37,7 +37,7 @@ p18
 (dp20
 S'text'
 p21
-VYou are in a locked room, where there's a electronic lock connected to a door. The lock will only give you 1 attempt, otherwise you will not be able to see the light of day again.  But, there is a twist, your captor will only give you 1 hint, which will correspond to different padlocks, so choose wisely... The choice is yours: <h1>[[TRY to unlock, and live]] or [[Hope for the best, and die]]</h1>\u000a
+VYou are in a locked room, where there's a electronic lock connected to a door. The lock will only give you 1 attempt, otherwise you will not be able to see the light of day again.  But, there is a twist, your captor will give you 1 hint.\u000aThe choice is yours: <h1>[[TRY to unlock]] or [[Wait for rescue]]</h1>\u000a
 p22
 sS'title'
 p23
@@ -50,12 +50,12 @@ struct_time
 p26
 ((I2014
 I7
-I17
-I14
-I52
-I9
-I3
-I198
+I18
+I19
+I31
+I21
+I4
+I199
 I1
 tp27
 (dp28
@@ -196,18 +196,18 @@ g21
 VOK young one, choose your hint!\u000a<h1>\u000a[[Hint 1]]\u000a[[Hint 2]]\u000a[[Hint 3]]\u000a[[Hint 4]]\u000a[[Hint 5]]\u000a[[Hint 6]]\u000a[[Hint 7]]\u000a[[Hint 8]]\u000a[[Hint 9]]\u000a[[Hint 10]]\u000a[[Hint 11]]\u000a[[Hint 12]]\u000a</h1>\u000a
 p72
 sg23
-VTRY to unlock, and live
+VTRY to unlock
 p73
 sg25
 g26
 ((I2014
 I7
-I17
-I15
-I2
-I47
-I3
-I198
+I18
+I19
+I31
+I44
+I4
+I199
 I1
 tp74
 (dp75
@@ -235,8 +235,8 @@ g14
 I00
 sg15
 (lp84
-F37.0
-aF538.0
+F24.0
+aF564.0
 asg17
 (itiddlywiki
 Tiddler
@@ -246,18 +246,18 @@ g21
 VSure, die!\u000a\u000a<h1>Sorry! Nobody cares</h1>
 p87
 sg23
-VHope for the best, and die
+VWait for rescue
 p88
 sg25
 g26
 ((I2014
 I7
-I17
-I14
-I33
-I9
-I3
-I198
+I18
+I19
+I32
+I5
+I4
+I199
 I1
 tp89
 (dp90
@@ -1256,7 +1256,7 @@ tp393
 Rp394
 sbsa(dp395
 g14
-I00
+I01
 sg15
 (lp396
 F195.0
@@ -1276,12 +1276,12 @@ sg25
 g26
 ((I2014
 I7
-I17
-I15
-I11
-I42
-I3
-I198
+I18
+I19
+I33
+I52
+I4
+I199
 I1
 tp401
 (dp402
@@ -1309,8 +1309,8 @@ g14
 I00
 sg15
 (lp411
-I157
-aI395
+I522
+aI577
 asg17
 (itiddlywiki
 Tiddler
@@ -1363,8 +1363,8 @@ g14
 I00
 sg15
 (lp428
-I333
-aI625
+I360
+aI576
 asg17
 (itiddlywiki
 Tiddler
